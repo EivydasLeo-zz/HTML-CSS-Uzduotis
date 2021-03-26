@@ -1,0 +1,690 @@
+.main {
+  margin: 0 auto;
+}
+/* Services text section */
+
+.full-container__services {
+  padding: 1rem 1rem;
+}
+
+.services-container__text {
+  margin-top: 30rem;
+}
+
+.main-intro__mini-title {
+  font-family: var(--font-arizonia);
+  color: var(--orange);
+  font-weight: 100;
+  font-size: 27px;
+}
+
+.main-intro__title {
+  color: var(--blackshadow);
+  font-weight: 600;
+  margin: 1.5rem 0;
+}
+
+.main-intro__paragraph {
+  color: var(--textgray);
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+.services__button {
+  color: var(--white);
+  background-color: var(--orange);
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+/* ------------------- */
+/* Services activities */
+.services-container__activities {
+  background-image: url(/img/servicesforcustomers/services-1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 310px;
+  width: 100%;
+  box-shadow: inset 0 0 0 500px #1088ff61;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.services-container__activities:hover {
+  transform: scale(1.1);
+}
+
+.fa-snowboarding {
+  font-size: 40px;
+  margin: 2rem 1rem;
+  margin-top: 2.5rem;
+  color: var(--white);
+}
+
+.services-container__title-activities {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 1rem;
+  color: var(--white);
+}
+
+.services-container__paragraph-activities {
+  line-height: 1.8;
+  font-weight: 400;
+  margin: 1.5rem 1rem;
+  color: var(--lightwhite);
+  width: 80%;
+}
+/* ----------------------------------- */
+/* Travel container */
+
+.services-container__travel {
+  background-image: url(/img/servicesforcustomers/services-2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 310px;
+  width: 100%;
+  box-shadow: inset 0 0 0 500px #04899873;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.services-container__travel:hover {
+  transform: scale(1.1);
+}
+
+.fa-route {
+  font-size: 40px;
+  margin: 2rem 1rem;
+  margin-top: 2.5rem;
+  color: var(--white);
+}
+
+.services-container__title-travel {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 1rem;
+  color: var(--white);
+}
+
+.services-container__paragraph-travel {
+  line-height: 1.8;
+  font-weight: 400;
+  margin: 1.5rem 1rem;
+  color: var(--lightwhite);
+  width: 80%;
+}
+/* ---------------------------- */
+
+/* Private section */
+
+.services-container__private {
+  background-image: url(/img/servicesforcustomers/services-3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 310px;
+  width: 100%;
+  box-shadow: inset 0 0 0 500px #b812eb54;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.services-container__private:hover {
+  transform: scale(1.1);
+}
+
+.fa-user-shield {
+  font-size: 40px;
+  margin: 2rem 1rem;
+  margin-top: 2.5rem;
+  color: var(--white);
+}
+
+.services-container__title-private {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 1rem;
+  color: var(--white);
+}
+
+.services-container__paragraph-private {
+  line-height: 1.8;
+  font-weight: 400;
+  margin: 1.5rem 1rem;
+  color: var(--lightwhite);
+  width: 80%;
+}
+
+/* ------------------------------------ */
+/* Location manager section */
+
+.services-container__location {
+  background-image: url(/img/servicesforcustomers/services-4.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 310px;
+  width: 100%;
+  box-shadow: inset 0 0 0 500px #ff59597e;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.services-container__location:hover {
+  transform: scale(1.1);
+}
+
+.fa-map-marked-alt {
+  font-size: 40px;
+  margin: 2rem 1rem;
+  margin-top: 2.5rem;
+  color: var(--white);
+}
+
+.services-container__title-location {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 1rem;
+  color: var(--white);
+}
+
+.services-container__paragraph-location {
+  line-height: 1.8;
+  font-weight: 400;
+  margin: 1.5rem 1rem;
+  color: var(--lightwhite);
+  width: 80%;
+}
+/* ----------------------------------- */
+/* Main (destination section) */
+
+.places__bg {
+  background-image: url(/img/places/bg/crossword.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  padding-bottom: 10rem;
+  box-shadow: inset 0 0 0 500px #0000000a;
+}
+
+.places__title_subtitle {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.places__mini-title {
+  font-family: var(--font-arizonia);
+  color: var(--orange);
+  font-weight: 100;
+  font-size: 27px;
+  padding-top: 6rem;
+}
+
+.places__intro__title {
+  color: var(--blackshadow);
+  font-weight: 600;
+  margin: 1.5rem 0;
+  width: 98%;
+}
+/* ------------------------------------------ */
+/* Canada */
+
+.places-image__canada {
+  background-image: url(/img/places/place-2.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 270px;
+  height: 340px;
+  position: relative;
+  margin: 1rem auto;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.places-image__canada:hover {
+  box-shadow: 7px 7px var(--orange);
+}
+
+.places-image__title__canada {
+  color: var(--white);
+  width: 80px;
+  background-color: var(--orange);
+  text-align: center;
+  border-radius: 2px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  top: 1rem;
+}
+
+.places-image__trip-duration__canada {
+  color: var(--white);
+  width: 80px;
+  background-color: var(--orange);
+  text-align: center;
+  border-radius: 2px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  bottom: 1rem;
+  right: 0rem;
+}
+
+/* ------------------------------------- */
+/* Grece */
+
+.places-image__greece {
+  background-image: url(/img/places/place-5.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 270px;
+  height: 340px;
+  position: relative;
+  margin: 1rem auto;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.places-image__greece:hover {
+  box-shadow: 7px 7px var(--orange);
+}
+
+.places-image__title__greece {
+  color: var(--white);
+  width: 80px;
+  background-color: var(--orange);
+  text-align: center;
+  border-radius: 2px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  top: 1rem;
+  right: 0rem;
+}
+
+.places-image__trip-duration__greece {
+  color: var(--white);
+  width: 80px;
+  background-color: var(--orange);
+  text-align: center;
+  border-radius: 2px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  bottom: 1rem;
+  left: 0rem;
+}
+/* ------------------------------------ */
+/* Philippines */
+
+.places-image__philippines {
+  background-image: url(/img/places/place-1.jpg);
+  background-size: cover;
+  background-position: bottom;
+  width: 270px;
+  height: 340px;
+  position: relative;
+  margin: 1rem auto;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.places-image__philippines:hover {
+  box-shadow: 7px 7px var(--orange);
+}
+
+.places-image__title__philippines {
+  color: var(--white);
+  width: 100px;
+  background-color: var(--orange);
+  text-align: center;
+  border-radius: 2px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  top: 1rem;
+}
+
+.places-image__trip-duration__philippines {
+  color: var(--white);
+  width: 80px;
+  background-color: var(--orange);
+  text-align: center;
+  border-radius: 2px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  bottom: 1rem;
+  right: 0rem;
+}
+
+/* --------------------------------------- */
+/* Australia */
+
+.places-image__australia {
+  background-image: url(/img/places/place-4.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 270px;
+  height: 340px;
+  position: relative;
+  margin: 1rem auto;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.places-image__australia:hover {
+  box-shadow: 7px 7px var(--orange);
+}
+.places-image__title__australia {
+  color: var(--white);
+  width: 90px;
+  background-color: var(--orange);
+  text-align: center;
+  border-radius: 2px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  top: 1rem;
+  right: 0rem;
+}
+
+.places-image__trip-duration__australia {
+  color: var(--white);
+  width: 80px;
+  background-color: var(--orange);
+  text-align: center;
+  border-radius: 2px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  bottom: 1rem;
+  left: 0rem;
+}
+
+/* --------------------------------------- */
+/* Thailand */
+
+.places-image__thailand {
+  background-image: url(/img/places/place-3.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 270px;
+  height: 340px;
+  position: relative;
+  margin: 1rem auto;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.places-image__thailand:hover {
+  box-shadow: 7px 7px var(--orange);
+}
+
+.places-image__title__thailand {
+  color: var(--white);
+  width: 80px;
+  background-color: var(--orange);
+  text-align: center;
+  border-radius: 2px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  top: 1rem;
+}
+
+.places-image__trip-duration__thailand {
+  color: var(--white);
+  width: 80px;
+  background-color: var(--orange);
+  text-align: center;
+  border-radius: 2px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  bottom: 1rem;
+  right: 0rem;
+}
+
+/* -------------------------------------- */
+
+/* Egypt */
+
+.places-image__egypt {
+  background-image: url(/img/places/place-6.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 270px;
+  height: 340px;
+  position: relative;
+  margin: 1rem auto;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.places-image__egypt:hover {
+  box-shadow: 7px 7px var(--orange);
+}
+
+.places-image__title__egypt {
+  color: var(--white);
+  width: 90px;
+  background-color: var(--orange);
+  text-align: center;
+  border-radius: 2px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  top: 1rem;
+  right: 0rem;
+}
+
+.places-image__trip-duration__egypt {
+  color: var(--white);
+  width: 80px;
+  background-color: var(--orange);
+  text-align: center;
+  border-radius: 2px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  bottom: 1rem;
+  left: 0rem;
+}
+
+/* --------------------------------------- */
+
+/* About us section */
+
+.main-image__about-us {
+  background-image: url(/img/about-us/bg_4.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 275px;
+  width: 100%;
+  background-size: 150%;
+  margin-top: 22rem;
+}
+
+.full-container__about-us {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.second-image__frame {
+  background-image: url(/img/about-us/about-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 370px;
+  width: 93%;
+  border: 15px solid white;
+  background-size: 100%;
+  position: absolute;
+  top: 14rem;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 50px 0px rgb(0 0 0 / 15%);
+}
+
+.text-container__about-us {
+  padding: 1rem 1rem;
+  margin-top: 40rem;
+}
+
+.mini-title__about-us {
+  font-family: var(--font-arizonia);
+  color: var(--orange);
+  font-weight: 100;
+  font-size: 27px;
+}
+
+.title__about-us {
+  color: var(--blackshadow);
+  font-weight: 600;
+  margin: 1.5rem 0;
+  width: 98%;
+  font-size: 1.7rem;
+}
+
+.text-container__about-us > p {
+  line-height: 1.8;
+  color: var(--textgray);
+}
+
+.button__about-us {
+  color: var(--white);
+  background-color: var(--orange);
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+/* ---------------------------------------- */
+
+/* Tourist-feedback section */
+
+.main-tourist-feedback__bg {
+  background-image: url(/img/tourist-feedback/bg_1.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 750px;
+  width: 100%;
+  background-size: cover;
+  margin-top: 55rem;
+  box-shadow: inset 0 0 0 500px #00bc2f57;
+}
+.text-container__tourist-feedback {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.mini-title__tourist_feedback {
+  color: var(--white);
+  font-family: var(--font-arizonia);
+  font-weight: 100;
+  font-size: 30px;
+  padding-top: 5rem;
+}
+
+.title__tourist_feedback {
+  font-weight: 600;
+  margin: 1rem auto;
+  width: 100%;
+  font-size: 2rem;
+  color: var(--white);
+  line-height: 1.5;
+}
+
+.tourist-feedback__box {
+  background-color: white;
+  width: 290px;
+  height: 320px;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+}
+
+.stars-rate__box-paragraph i {
+  color: var(--orange);
+  padding-right: 0.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.stars-rate__box-paragraph p {
+  line-height: 1.5;
+  color: var(--textgray);
+}
+
+.tourist__icon-position {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-areas:
+    "touristicon touristname"
+    "touristicon touristposition";
+  margin-top: 1rem;
+}
+
+.tourist__icon {
+  grid-area: touristicon;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  border: 5px solid var(--orange);
+}
+
+.tourist__name {
+  grid-area: touristname;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.tourist__position {
+  grid-area: touristposition;
+  color: var(--orange);
+  line-height: 1.2;
+}
+
+.container__tourist-feedback {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(232px, 1fr));
+  gap: 2rem;
+  transition: transform 1s ease-in-out;
+}
+
+.container__tourist-feedback:hover {
+  transform: translateX(-305px);
+}
+
+.full-cointainer__tourist-feedback {
+  overflow: hidden;
+  width: 290px;
+  margin: 0 auto;
+}

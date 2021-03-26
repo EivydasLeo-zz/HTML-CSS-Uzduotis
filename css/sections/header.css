@@ -1,0 +1,232 @@
+/* Container mini-section */
+.container-header__bg {
+  background-image: url(/img/header-bg/bg_5.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+  width: 100%;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+}
+
+/* Container mini-section ends */
+
+/* Header top panel section */
+.container-header__top-panel {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white);
+  padding: 1rem 1rem;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  box-shadow: 1px 7px 5px 0px rgba(0, 0, 0, 0.055);
+}
+
+.header-container__intro {
+  padding-top: 15rem;
+}
+
+.header__title {
+  color: black;
+  font-weight: 700;
+  font-size: 21px;
+  text-decoration: none;
+}
+
+.header__subtitle {
+  color: var(--orange);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-flow: row-reverse;
+}
+.nav-container {
+  display: flex;
+  width: 580px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.header-nav-container__icon-rightside {
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.header-nav-container__titles-rightside {
+  display: none;
+}
+
+/* Active script for nav */
+
+.header-nav-container__titles-rightside.active {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.header-nav-container__titles-rightside.active a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.header-nav-container__titles-rightside.active a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--orange);
+}
+
+/* -------------------------------------- */
+
+/* Header-container__intro section */
+
+.header-intro__mini-title {
+  font-family: var(--font-arizonia);
+  color: var(--orange);
+  font-weight: 100;
+  font-size: 27px;
+  margin-bottom: 0;
+}
+
+.header-intro__title-and-link {
+  color: var(--white);
+  font-weight: 600;
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-intro__paragraph {
+  color: rgb(233, 231, 231);
+  margin: 2rem 0;
+}
+
+.fa-youtube {
+  font-size: 35px;
+  color: var(--orange);
+  margin-left: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.fa-youtube:hover {
+  transform: scale(1.3);
+}
+
+/* -----------------------------------------*/
+
+/* Header search label */
+
+.top-main__boxes {
+  display: flex;
+  margin-left: 1rem;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.search_form {
+  background-color: var(--white);
+  margin: 0 1rem;
+  padding-top: 2rem;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+}
+
+.destination-container,
+.calendar_checkin-container,
+.calendar_checkout-container,
+.price-container {
+  margin: 0 0 3rem 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 80%;
+}
+
+.search_form input,
+.price-input {
+  width: 70%;
+  border: none;
+  margin-top: 1rem;
+  margin-left: -2px;
+  color: #757575;
+  background-color: #fff;
+}
+
+.search-tour__box {
+  color: var(--white);
+  background: var(--orange);
+  width: 45%;
+  padding: 0.4rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: none;
+  margin-right: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hotel__box {
+  background-color: var(--orange);
+  color: var(--white);
+  width: 35%;
+  padding: 0.4rem;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hotel__box:hover {
+  background-color: var(--white);
+  color: #7d7676;
+}
+
+.search-tour__box:hover {
+  background-color: var(--white);
+  color: #7d7676;
+}
+
+.destination-container {
+  color: var(--orange);
+}
+
+.place-search__button {
+  background-color: white;
+  border: none;
+  margin-left: -33px;
+  color: #757575;
+  font-size: 14px;
+}
+
+.calendar_checkin-container {
+  color: var(--orange);
+}
+
+.calendar_checkout-container {
+  color: var(--orange);
+}
+
+.price-container {
+  color: var(--orange);
+}
+
+.search-form__search-button {
+  color: var(--white);
+  background-color: var(--orange);
+  width: 100%;
+  height: 65px;
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* --------------------------------------- */

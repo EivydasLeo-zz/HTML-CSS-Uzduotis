@@ -1,0 +1,695 @@
+@media only screen and (min-width: 375px) {
+  /* Search form section */
+  .destination-container,
+  .calendar_checkin-container,
+  .calendar_checkout-container,
+  .price-container {
+    width: 67%;
+  }
+}
+/* ------------------------------------------- */
+
+@media only screen and (min-width: 390px) {
+  /* Main (destination section) */
+
+  .destination-second__image,
+  .destination-third__image,
+  .destination-fourth__image,
+  .destination-fifth__image,
+  .destination-sixth__image {
+    margin-top: 13rem;
+  }
+
+  .destination-image__trip-info {
+    height: 220px;
+    bottom: -11rem;
+    width: 91%;
+  }
+  .mountain__logo {
+    display: inline-block;
+  }
+
+  .mountain__logo::before {
+    margin-left: 10px;
+  }
+
+  .beach__logo {
+    display: inline-block;
+  }
+
+  .beach__logo::before {
+    margin-left: 10px;
+  }
+}
+
+/* --------------------------------------------- */
+
+@media only screen and (min-width: 475px) {
+  /* Search form section */
+  .destination-container,
+  .calendar_checkin-container,
+  .calendar_checkout-container,
+  .price-container {
+    width: 51%;
+  }
+  /* -------------------------------------- */
+  /* Main (places container) */
+
+  .full-container__places {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "placetitle placetitle";
+    margin: 0 auto;
+    width: 430px;
+  }
+  .places__title_subtitle {
+    grid-area: placetitle;
+  }
+
+  .places-image__canada,
+  .places-image__greece,
+  .places-image__philippines,
+  .places-image__australia,
+  .places-image__thailand,
+  .places-image__egypt {
+    margin-top: 0rem;
+    width: 200px;
+  }
+
+  .places-image__title__greece,
+  .places-image__title__australia,
+  .places-image__title__egypt {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    left: 0rem;
+  }
+
+  .places-image__trip-duration__greece,
+  .places-image__trip-duration__australia,
+  .places-image__trip-duration__egypt {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    left: inherit;
+    right: 0rem;
+  }
+
+  /* ------------------------------------------ */
+  /* Main (About us section) */
+  .main-image__about-us {
+    height: 500px;
+  }
+  .second-image__frame {
+    width: 95%;
+    height: 430px;
+    top: 25rem;
+  }
+
+  .text-container__about-us {
+    margin-top: 54rem;
+  }
+}
+/* ---------------------------------------------- */
+
+@media only screen and (min-width: 580px) {
+  /* Header section */
+
+  .container-header__top-panel {
+    justify-content: space-around;
+  }
+
+  .header-container__intro {
+    width: 580px;
+    margin: 0 auto;
+  }
+
+  .nav-container {
+    display: flex;
+    width: 550px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  /* Header Nav Active */
+
+  .header-nav-container__titles-rightside.active a {
+    font-size: 14px;
+    padding: 0 0.2rem;
+  }
+  /* ------------------------------------------ */
+  /* Search section */
+  .search-container {
+    width: 580px;
+    margin: 0 auto;
+  }
+  /* ----------------------------------------- */
+
+  /* Main section (Service) */
+
+  .full-container__services {
+    width: 549px;
+    margin: 0 auto;
+  }
+  /* ------------------------ */
+
+  /* Main section (Places) */
+
+  .full-container__places {
+    width: 549px;
+  }
+
+  .places-image__canada,
+  .places-image__greece,
+  .places-image__philippines,
+  .places-image__australia,
+  .places-image__thailand,
+  .places-image__egypt {
+    width: 260px;
+  }
+
+  /* Main section (Destination) */
+
+  .destination-main__image,
+  .destination-second__image,
+  .destination-third__image,
+  .destination-fourth__image,
+  .destination-fifth__image,
+  .destination-sixth__image {
+    width: 500px;
+  }
+  /* ------------------------------------------ */
+  /* Main section (About-us */
+  .main-image__about-us {
+    height: 500px;
+  }
+  .second-image__frame {
+    width: 550px;
+    top: 25rem;
+  }
+
+  .text-container__about-us {
+    padding-top: 52rem;
+    margin: 3rem auto;
+    width: 550px;
+  }
+
+  /* --------------------------------- */
+  /* Main section (Tourist feedback) */
+
+  .tourist-feedback__box {
+    width: 260px;
+  }
+
+  .container__tourist-feedback {
+    gap: 0.5rem;
+  }
+
+  .full-cointainer__tourist-feedback {
+    width: 560px;
+  }
+
+  /* ------------------------------------- */
+  /* Footer  */
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(232px, 1fr));
+    gap: 5rem;
+  }
+}
+
+/* ----------------------------------------------- */
+
+@media only screen and (min-width: 768px) {
+  /* Search form section */
+  .search_form {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22% 12%;
+    grid-template-areas: "destination check_in check_out price_limit button";
+    grid-template-rows: 125px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .destination-container {
+    grid-area: destination;
+  }
+
+  .calendar_checkin-container {
+    grid-area: check_in;
+  }
+
+  .calendar_checkout-container {
+    grid-area: check_out;
+  }
+
+  .price-container {
+    grid-area: price_limit;
+  }
+
+  .button-container {
+    grid-area: button;
+  }
+  /* header section */
+  .nav-container {
+    width: 720px;
+  }
+
+  .header-container__intro {
+    width: 765px;
+  }
+  /* Search form section */
+  .search-container {
+    width: 740px;
+    margin-top: 8rem;
+  }
+
+  .top-main__boxes {
+    width: 330px;
+    margin-left: 0;
+  }
+
+  .destination-container,
+  .calendar_checkin-container,
+  .calendar_checkout-container,
+  .price-container {
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid var(--gray);
+    text-align: center;
+    margin: 0 auto;
+  }
+  .price-container {
+    border: none;
+  }
+
+  .label-box {
+    margin-top: 1.5rem;
+  }
+
+  .search-form__search-button {
+    height: 125px;
+    width: 101%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  /* Header intro section */
+  .header-intro__title-and-link {
+    width: 56%;
+  }
+
+  .header-intro__paragraph {
+    width: 49%;
+  }
+
+  /* Main services section */
+  .full-container__services {
+    width: 740px;
+    margin: 0 auto;
+  }
+  .container-all__services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+
+  .services-container__text {
+    margin-top: 5rem;
+  }
+
+  .services-container__activities,
+  .services-container__travel,
+  .services-container__private,
+  .services-container__location {
+    margin: 0;
+  }
+  .services__button {
+    margin-bottom: 2rem;
+  }
+  /* ------------------------------- */
+  /* Main section (places) */
+
+  .full-container__places {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "placetitle placetitle placetitle";
+    width: 740px;
+  }
+
+  .places-image__canada,
+  .places-image__greece,
+  .places-image__philippines,
+  .places-image__australia,
+  .places-image__thailand,
+  .places-image__egypt {
+    width: 230px;
+  }
+
+  /* --------------------------------------- */
+  /* Main section (destination) */
+
+  .full-container__destination {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "destinationtitle destinationtitle destinationtitle";
+    gap: 1rem;
+    width: 735px;
+    margin: 0 auto;
+  }
+
+  .destination__title_subtitle {
+    grid-area: destinationtitle;
+  }
+
+  .destination-image__title {
+    left: 0.4rem;
+  }
+
+  .destination-main__image,
+  .destination-second__image,
+  .destination-third__image,
+  .destination-fourth__image,
+  .destination-fifth__image,
+  .destination-sixth__image {
+    width: 225px;
+  }
+
+  .destination-main__image,
+  .destination-second__image,
+  .destination-third__image {
+    margin-top: 0;
+  }
+
+  .destination-image__trip-info {
+    height: 320px;
+    bottom: -17rem;
+    width: 94%;
+  }
+
+  .destination-fourth__image,
+  .destination-fifth__image,
+  .destination-sixth__image {
+    margin-top: 19rem;
+  }
+
+  .beach__logo::before,
+  .mountain__logo::before {
+    margin-left: 0;
+  }
+
+  /* ---------------------------------- */
+  /* Main section (About-us) */
+
+  .full-container__about-us {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "secondimage textabout";
+    width: 750px;
+    margin: 0 auto;
+  }
+
+  .second-image__frame {
+    grid-area: secondimage;
+    left: 2rem;
+    width: 350px;
+    height: 900px;
+    background-size: cover;
+  }
+  .text-container__about-us {
+    grid-area: textabout;
+    width: 250px;
+    padding-top: 33rem;
+    margin: 3rem 4rem;
+  }
+}
+
+/* ----------------------------------------------- */
+
+@media only screen and (min-width: 992px) {
+  /* Header section */
+  .container-header__bg {
+    height: 850px;
+  }
+
+  .nav-container {
+    width: 960px;
+  }
+
+  .fa-youtube {
+    font-size: 45px;
+  }
+
+  .header-nav-container__icon-rightside {
+    display: none;
+  }
+
+  .header-nav-container__titles-rightside {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .header-nav-container__titles-rightside a {
+    margin: 0 1.2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+
+  .header-nav-container__titles-rightside a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--orange);
+  }
+
+  .header-container__intro {
+    width: 990px;
+  }
+
+  .header-intro__title-and-link {
+    width: 77%;
+    font-size: 3rem;
+  }
+
+  .header-intro__paragraph {
+    width: 40%;
+  }
+
+  /* Search section */
+  .search-container {
+    width: 960px;
+    margin-top: 17rem;
+  }
+
+  /* ----------------------------------- */
+
+  /* Main section (Services) */
+
+  .full-container__services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "service servicetext";
+    grid-gap: 4rem;
+    margin-top: 10rem;
+    width: 957px;
+    margin: 0 auto;
+  }
+
+  .services-container__text {
+    grid-area: servicetext;
+    margin-top: 10rem;
+  }
+
+  .container-all__services {
+    grid-area: service;
+    margin-top: 6rem;
+  }
+
+  .services-container__activities,
+  .services-container__travel,
+  .services-container__private,
+  .services-container__location {
+    margin: 0;
+  }
+  /* ---------------------------------- */
+  /* Main section (places) */
+  .full-container__places {
+    width: 950px;
+  }
+
+  .places-image__canada,
+  .places-image__greece,
+  .places-image__philippines,
+  .places-image__australia,
+  .places-image__thailand,
+  .places-image__egypt {
+    width: 300px;
+  }
+
+  /* ---------------------------------------- */
+  /* Main section (destination) */
+
+  .full-container__destination {
+    width: 950px;
+  }
+
+  .destination-main__image,
+  .destination-second__image,
+  .destination-third__image,
+  .destination-fourth__image,
+  .destination-fifth__image,
+  .destination-sixth__image {
+    width: 300px;
+  }
+
+  .beach__logo {
+    display: block;
+  }
+
+  .destination-image__title {
+    left: 0.5rem;
+  }
+  /* --------------------------------------- */
+
+  /* Main (about us section) */
+
+  .second-image__frame {
+    width: 480px;
+    height: 700px;
+    background-size: cover;
+    left: -6rem;
+  }
+  .text-container__about-us {
+    width: 320px;
+  }
+  .main-image__about-us {
+    background-size: 100%;
+  }
+  /* ------------------------------------------ */
+  /* Main (tourist feedback section) */
+
+  .full-cointainer__tourist-feedback {
+    width: 860px;
+  }
+}
+/* ----------------------------------------------- */
+
+@media only screen and (min-width: 1420px) {
+  .nav-container {
+    width: 1350px;
+  }
+  .header-container__intro {
+    width: 1380px;
+  }
+
+  .search-container {
+    width: 1350px;
+  }
+
+  .full-container__services {
+    width: 1351px;
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+
+  .search-container {
+    margin-top: 20rem;
+  }
+
+  .fa-youtube {
+    font-size: 60px;
+  }
+
+  .header-intro__title-and-link {
+    width: 55%;
+  }
+  .header-intro__paragraph {
+    width: 30%;
+  }
+
+  /* ------------------------------------- */
+
+  /* main section (places) */
+
+  .full-container__places {
+    width: 1351px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "placetitle placetitle placetitle placetitle placetitle placetitle";
+  }
+
+  .places-image__canada,
+  .places-image__greece,
+  .places-image__philippines,
+  .places-image__australia,
+  .places-image__thailand,
+  .places-image__egypt {
+    width: 215px;
+  }
+
+  /* ----------------------------------------- */
+
+  /* main section (destination) */
+
+  .full-container__destination {
+    width: 1351px;
+  }
+  .destination-image__trip-info {
+    height: 233px;
+    bottom: -11rem;
+  }
+  .destination-main__image,
+  .destination-second__image,
+  .destination-third__image,
+  .destination-fourth__image,
+  .destination-fifth__image,
+  .destination-sixth__image {
+    width: 440px;
+  }
+
+  .destination-fourth__image,
+  .destination-fifth__image,
+  .destination-sixth__image {
+    margin-top: 14rem;
+  }
+
+  .beach__logo {
+    display: inline-block;
+  }
+
+  .beach__logo::before,
+  .mountain__logo::before {
+    margin-left: 10px;
+  }
+
+  .destination-image__title {
+    left: 0.7rem;
+  }
+
+  /* --------------------------------------- */
+
+  /* Main ( about us section) */
+
+  .second-image__frame {
+    width: 780px;
+    height: 700px;
+    background-size: cover;
+    left: -18rem;
+  }
+  .text-container__about-us {
+    width: 430px;
+    margin: 3rem 10rem;
+  }
+
+  /* ------------------------------------ */
+
+  /* Main (tourist-feedback) */
+
+  .full-cointainer__tourist-feedback {
+    width: 900px;
+  }
+
+  .tourist-feedback__box {
+    width: 280px;
+  }
+}

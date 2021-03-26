@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS projekto uzduotis</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/globals.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/globals.css">
+    <link rel="stylesheet" href="/css/variables.css">
+    <!-- Sections  -->
+    <link rel="stylesheet" href="/css/sections/header.css">
+    <link rel="stylesheet" href="/css/sections/main.css">
+    <link rel="stylesheet" href="/css/sections/aside.css">
+    <link rel="stylesheet" href="/css/sections/footer.css">
+    <!-- Responsive paskutinis -->
+    <link rel="stylesheet" href="/css/responsive.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-header__bg">
+
+            <div class="container-header__top-panel">
+                <div class="nav-container">
+                    <!-- header title-subtitle section -->
+                    <div class="header-container__title-subtitle">
+                        <a href="#" class="header__title">Alberta</a>
+                        <span class="header__subtitle">Travel Agency</span>
+                    </div>
+                    <!-- ------------- -->
+                    <!-- header nav section -->
+                    <nav class="header-nav">
+                        <div class="header-nav-container__icon-rightside">
+                            <i class="fa fa-bars"></i>
+                        </div>
+                        <div class="header-nav-container__titles-rightside">
+                            <a class="header-nav-title__Home" href="#">Home</a>
+                            <a class="header-nav-title__About" href="#">About</a>
+                            <a class="header-nav-title__Destination" href="#">Destination</a>
+                            <a class="header-nav-title__Hotel" href="#">Hotel</a>
+                            <a class="header-nav-title__Blog" href="#">Blog</a>
+                            <a class="header-nav-title__Contact" href="#">Contact</a>
+                        </div>
+                    </nav>
+                    <!-- ------------- -->
+                </div>
+            </div>
+            <!-- header intro section -->
+            <section class="header-container__intro p-sides1rem ">
+                <h5 class="header-intro__mini-title">Welcome to Alberta</h5>
+                <h1 class="header-intro__title-and-link">Discover Your Favorite Place With Us<a
+                        href="https://youtu.be/mJhFtv5UTk8"><i class="fab fa-youtube"></i></a></h1>
+                <p class="header-intro__paragraph">Travel to the any corner of the world, without going around in
+                    circles</p>
+            </section>
+            <!-- ------------- -->
+            <!-- search section -->
+            <div class="search-container">
+                <div class="top-main__boxes">
+                    <section class="search-tour__box">Search Tour</section>
+                    <section class="hotel__box">Hotel</section>
+                </div>
+                <!-- ------------- -->
+                <!-- search form section -->
+                <form class="search_form">
+                    <!-- destination label section -->
+                    <div class="destination-container">
+                        <div class="label-box">
+                            <label for="place-search">Destination</label>
+                        </div>
+                        <input type="text" placeholder="Search place" name="search">
+                        <button class="place-search__button" type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                    <!-- ----------------------------- -->
+                    <!-- calendar check in/out section -->
+
+                    <div class="calendar_checkin-container">
+                        <div class="label-box">
+                            <label for="start">Check-in date</label>
+                        </div>
+                        <input type="date" id="out" placeholder="Search place">
+                    </div>
+                    <div class="calendar_checkout-container">
+                        <div class="label-box">
+                            <label for="start">Check-out date</label>
+                        </div>
+                        <input type="date" id="in" name="trip-start" placeholder="Search place">
+                    </div>
+                    <!-- ------------------------------------- -->
+                    <!--  price label section-->
+                    <div class="price-container">
+                        <div class="label-box">
+                            <label for="price-select">Price limit:</label>
+                        </div>
+                        <select class="price-input" name="price" id="price-select">
+                            <option>Select the price</option>
+                            <option value="100$">100$</option>
+                            <option value="500$">300$</option>
+                            <option value="1000$">1000$</option>
+                            <option value="5000$">5000$</option>
+                            <option value="10000$">10000$</option>
+                            <option value="50000$">50000$</option>
+                        </select>
+                    </div>
+                    <!-- ----------------------------------- -->
+                    <!-- buttom section -->
+                    <div class="button-container">
+                        <button class="search-form__search-button">Search</button>
+                    </div>
+                    <!-- ---------------------------------------- -->
+                </form>
+                <!-- ------------- -->
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <article class="full-container__services">
+            <!-- services-container__text section -->
+            <article class="services-container__text">
+                <h5 class="main-intro__mini-title">Welcome to Alberta</h5>
+                <h2 class="main-intro__title">It's time to start your adventure </h2>
+                <p class="main-intro__paragraph">A small river named Duden flows by their place and supplies it with the
+                    necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into
+                    your
+                    mouth.</p>
+                <p class="main-intro__paragraph">Far far away, behind the word mountains, far from the countries Vokalia
+                    and
+                    Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+                    the
+                    Semantics, a large language ocean.
+                    A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <button class="services__button">Search destination</button>
+            </article>
+            <!-- ----------------------------------->
+            <!-- all services container -->
+            <section class="container-all__services">
+                <!-- services-container__activities -->
+                <section class="services-container__activities">
+                    <i class="fas fa-snowboarding"></i>
+                    <h5 class="services-container__title-activities">Activities</h5>
+                    <p class="services-container__paragraph-activities">A small river named Duden flows by their place
+                        and
+                        supplies it with the necessary</p>
+                </section>
+                <!-- --------------------------------- -->
+                <!-- services-container__travel -->
+                <section class="services-container__travel">
+                    <i class="fas fa-route"></i>
+                    <h5 class="services-container__title-travel">Travel Arrangements</h5>
+                    <p class="services-container__paragraph-travel">A small river named Duden flows by their place and
+                        supplies
+                        it with the necessary</p>
+                </section>
+                <!-- ------------------------------------ -->
+                <!-- services-container__private -->
+                <section class="services-container__private">
+                    <i class="fas fa-user-shield"></i>
+                    <h5 class="services-container__title-private">Private Guide</h5>
+                    <p class="services-container__paragraph-private">A small river named Duden flows by their place and
+                        supplies it with the necessary</p>
+                </section>
+                <!-- --------------------------------- -->
+                <!-- services-container__location -->
+                <section class="services-container__location">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h5 class="services-container__title-location">Location Manager</h5>
+                    <p class="services-container__paragraph-location">A small river named Duden flows by their place and
+                        supplies it with the necessary</p>
+                </section>
+                <!-- -------------------------------------- -->
+            </section>
+            <!-- ---------------------- -->
+        </article>
+        <div class="places__bg">
+            <!-- container-places -->
+            <div class="full-container__places">
+                <!-- place__title_subtitle -->
+                <div class="places__title_subtitle">
+                    <h5 class="places__mini-title">Alberta Provide Places</h5>
+                    <h2 class="places__intro__title">Select Your Destination </h2>
+                </div>
+                <!-- --------------------- -->
+                <!-- place-image section -->
+                <div class="places-image__canada">
+                    <div class="places-image__title__canada">Canada</div>
+                    <div class="places-image__trip-duration__canada">2 Tours</div>
+                </div>
+                <div class="places-image__greece">
+                    <div class="places-image__title__greece">Greece</div>
+                    <div class="places-image__trip-duration__greece">4 Tours</div>
+                </div>
+                <div class="places-image__philippines">
+                    <div class="places-image__title__philippines">Philippines</div>
+                    <div class="places-image__trip-duration__philippines">3 Tours</div>
+                </div>
+                <div class="places-image__australia">
+                    <div class="places-image__title__australia">Australia</div>
+                    <div class="places-image__trip-duration__australia">2 Tours</div>
+                </div>
+                <div class="places-image__thailand">
+                    <div class="places-image__title__thailand">Thailand</div>
+                    <div class="places-image__trip-duration__thailand">3 Tours</div>
+                </div>
+                <div class="places-image__egypt">
+                    <div class="places-image__title__egypt">Egypt</div>
+                    <div class="places-image__trip-duration__egypt">4 Tours</div>
+                </div>
+                <!-- -------------------- -->
+            </div>
+            <!-- ---------------- -->
+        </div>
+        <!-- container-destination -->
+        <aside class="full-container__destination">
+            <!-- destination__title_subtitle -->
+            <div class="destination__title_subtitle">
+                <h5 class="destination__mini-title">Destination</h5>
+                <h2 class="destination__intro__title">Tour Destination </h2>
+            </div>
+            <!-- --------------------------- -->
+            <!-- destination images -->
+            <div class="destination-main__image">
+                <div class="destination-image__title">$550/person</div>
+                <div class="destination-image__trip-info">
+                    <span class="destination-days__minititle">8 days tour</span>
+                    <h2 class="destination-location__title">Banaue Rice Terraces</h2>
+                    <p class="destination-location__paragraph">Banaue, ifugao, Philipines</p>
+                    <p><span class="shower__logo">2</span><span class="bed__logo">3</span><span
+                            class="mountain__logo">Near Mountain</span></p>
+                </div>
+            </div>
+            <div class="destination-second__image">
+                <div class="destination-image__title">$550/person</div>
+                <div class="destination-image__trip-info">
+                    <span class="destination-days__minititle">9 days tour</span>
+                    <h2 class="destination-location__title">Banaue Rice Terraces</h2>
+                    <p class="destination-location__paragraph">Banaue, ifugao, Philipines</p>
+                    <p><span class="shower__logo">2</span><span class="bed__logo">3</span><span class="beach__logo">Near
+                            Beach</span></p>
+                </div>
+            </div>
+            <div class="destination-third__image">
+                <div class="destination-image__title">$550/person</div>
+                <div class="destination-image__trip-info">
+                    <span class="destination-days__minititle">10 days tour</span>
+                    <h2 class="destination-location__title">Banaue Rice Terraces</h2>
+                    <p class="destination-location__paragraph">Banaue, ifugao, Philipines</p>
+                    <p><span class="shower__logo">2</span><span class="bed__logo">3</span><span class="beach__logo">Near
+                            Beach</span></p>
+                </div>
+            </div>
+            <div class="destination-fourth__image">
+                <div class="destination-image__title">$550/person</div>
+                <div class="destination-image__trip-info">
+                    <span class="destination-days__minititle">6 days tour</span>
+                    <h2 class="destination-location__title">Banaue Rice Terraces</h2>
+                    <p class="destination-location__paragraph">Banaue, ifugao, Philipines</p>
+                    <p><span class="shower__logo">2</span><span class="bed__logo">3</span><span class="beach__logo">Near
+                            Beach</span></p>
+                </div>
+            </div>
+            <div class="destination-fifth__image">
+                <div class="destination-image__title">$550/person</div>
+                <div class="destination-image__trip-info">
+                    <span class="destination-days__minititle">11 days tour</span>
+                    <h2 class="destination-location__title">Banaue Rice Terraces</h2>
+                    <p class="destination-location__paragraph">Banaue, ifugao, Philipines</p>
+                    <p><span class="shower__logo">2</span><span class="bed__logo">3</span><span class="beach__logo">Near
+                            Beach</span></p>
+                </div>
+            </div>
+            <div class="destination-sixth__image">
+                <div class="destination-image__title">$550/person</div>
+                <div class="destination-image__trip-info">
+                    <span class="destination-days__minititle">10 days tour</span>
+                    <h2 class="destination-location__title">Banaue Rice Terraces</h2>
+                    <p class="destination-location__paragraph">Banaue, ifugao, Philipines</p>
+                    <p><span class="shower__logo">2</span><span class="bed__logo">3</span><span class="beach__logo">Near
+                            Beach</span></p>
+                </div>
+            </div>
+            <!-- ------------------- -->
+        </aside>
+        <!-- ---------------------------->
+        <!-- container about us -->
+        <div class="main-image__about-us">
+            <section class="full-container__about-us">
+                <div class="second-image__frame">
+                </div>
+                <div class="text-container__about-us">
+                    <h4 class="mini-title__about-us">About Us</h4>
+                    <h2 class="title__about-us">Make Your Tour Memorable And Safe With Us</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live
+                        the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+                        large
+                        language ocean.</p>
+                    <button class="button__about-us">Book Your Destination</button>
+                </div>
+
+            </section>
+        </div>
+        <!-- ------------------- -->
+        <!-- full container tourist feedback -->
+        <div class="main-tourist-feedback__bg">
+            <section class="full-cointainer__tourist-feedback">
+                <!-- text container tourist feedback -->
+                <div class="text-container__tourist-feedback">
+                    <h4 class="mini-title__tourist_feedback">Testimonial</h4>
+                    <h2 class="title__tourist_feedback">Tourist Feedback</h2>
+                </div>
+                <!-- ------------------------------- -->
+                <!--  tourist profile box-->
+                <div class="container__tourist-feedback">
+                    <div class="tourist-feedback__box first">
+                        <div class="stars-rate__box-paragraph">
+                            <span><i class="fas fa-star"></i></span><span><i class="fas fa-star"></i></span><span><i
+                                    class="fas fa-star"></i></span><span><i class="fas fa-star"></i></span><span><i
+                                    class="fas fa-star"></i></span>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.</p>
+                        </div>
+                        <div class="tourist__icon-position">
+                            <img class="tourist__icon" src="/img/tourist-feedback/person_1.jpg" alt="">
+                            <p class="tourist__name">Roget Scott</p>
+                            <p class="tourist__position">Marketing Manager</p>
+                        </div>
+
+                    </div>
+                    <div class="tourist-feedback__box second">
+                        <div class="stars-rate__box-paragraph">
+                            <span><i class="fas fa-star"></i></span><span><i class="fas fa-star"></i></span><span><i
+                                    class="fas fa-star"></i></span><span><i class="fas fa-star"></i></span><span><i
+                                    class="fas fa-star"></i></span>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.</p>
+                        </div>
+                        <div class="tourist__icon-position">
+                            <img class="tourist__icon" src="/img/tourist-feedback/person_2.jpg" alt="">
+                            <p class="tourist__name">Tom Dellans</p>
+                            <p class="tourist__position">Production Manager</p>
+                        </div>
+
+                    </div>
+                    <div class="tourist-feedback__box third">
+                        <div class="stars-rate__box-paragraph">
+                            <span><i class="fas fa-star"></i></span><span><i class="fas fa-star"></i></span><span><i
+                                    class="fas fa-star"></i></span><span><i class="fas fa-star"></i></span><span><i
+                                    class="fas fa-star"></i></span>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.</p>
+                        </div>
+                        <div class="tourist__icon-position">
+                            <img class="tourist__icon" src="/img/tourist-feedback/person_3.jpg" alt="">
+                            <p class="tourist__name">Daniel Wilkins</p>
+                            <p class="tourist__position">Ceo</p>
+                        </div>
+
+                    </div>
+                    <div class="tourist-feedback__box fourth">
+                        <div class="stars-rate__box-paragraph">
+                            <span><i class="fas fa-star"></i></span><span><i class="fas fa-star"></i></span><span><i
+                                    class="fas fa-star"></i></span><span><i class="fas fa-star"></i></span><span><i
+                                    class="fas fa-star"></i></span>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.</p>
+                        </div>
+                        <div class="tourist__icon-position">
+                            <img class="tourist__icon" src="/img/tourist-feedback/person_4.jpg" alt="">
+                            <p class="tourist__name">Lara Brown</p>
+                            <p class="tourist__position">Designer</p>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- ------------------- -->
+            </section>
+        </div>
+        <!-- -------------------------- -->
+    </main>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <!-- footer bg -->
+        <div class="footer-bg">
+            <!-- ----- -->
+            <!-- footer container -->
+            <div class="footer-container">
+                <div class="about-container">
+                    <h3 class="about__title">About</h3>
+                    <p class="about-section__paragraph">Far far away, behind the word mountains, far from the countries
+                        Vokalia and Consonantia, there live the blind texts.</p>
+                    <a class="twitter__icon" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a class="facebook__icon" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="instagram__icon" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="information-container__list">
+                    <h3 class="information__title">Information</h3>
+                    <ul>
+                        <li class="information__list"><a href="#">Online Enquiry</a></li>
+                        <li class="information__list"><a href="#">General Enquiries</a></li>
+                        <li class="information__list"><a href="#">Booking Conditions</a></li>
+                        <li class="information__list"><a href="#">Privacy and Policy</a></li>
+                        <li class="information__list"><a href="#">Refund Policy</a></li>
+                        <li class="information__list"><a href="#">Call Us</a></li>
+
+                    </ul>
+                </div>
+                <div class="experience-container__list">
+                    <h3 class="experience__title">Experience</h3>
+                    <ul>
+                        <li><a href="#">Adventure</a></li>
+                        <li><a href="#">Hotel and Restaurant</a></li>
+                        <li><a href="#">Beach</a></li>
+                        <li><a href="#">Nature</a></li>
+                        <li><a href="#">Camping</a></li>
+                        <li><a href="#">Party</a></li>
+                    </ul>
+                </div>
+                <div class="questions-container__list">
+                    <h3 class="questions__title">Have a Questions?</h3>
+                    <ul>
+                        <li class="questions__address">203 Fake St. Mountain View, San Francisco, California, USA</li>
+                        <li class="questions__phone">+2 392 3929 210</li>
+                        <li class="questions__email">info@yourdomain.com</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- ---------------- -->
+            <!-- footer copyright -->
+            <div class="footer-copyright">
+                <p>Copyright ©2021 All rights reserved | This template is made by Eivydas Leonavicius</p>
+            </div>
+            <!-- ---------------- -->
+        </div>
+    </footer>
+    <!-- ------------- -->
+</body>
+<!-- script section -->
+<script>
+    document
+        .querySelector(".header-nav-container__icon-rightside")
+        .addEventListener("click", toggleNav);
+    const mainNav = document.querySelector(".header-nav-container__titles-rightside");
+
+    function toggleNav() {
+        mainNav.classList.toggle("active");
+    }
+</script>
+<!-- -------------- -->
+
+</html>

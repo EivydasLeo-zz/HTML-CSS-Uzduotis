@@ -1,0 +1,15 @@
+/* Global settings */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  word-wrap: break-word;
+  font-family: var(--font-poppins);
+  background-color: rgb(250, 250, 250);
+}
+/* Margin/Padding */
+.p-sides1rem {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

@@ -1,0 +1,12 @@
+/* Variables section */
+
+:root {
+  --white: #fff;
+  --orange: #f15d30;
+  --gray: #999999;
+  --blackshadow: rgba(0, 0, 0, 0.8);
+  --font-poppins: "Poppins", sans-serif;
+  --font-arizonia: "Arizonia", cursive;
+  --textgray: #757575;
+  --lightwhite: rgb(233, 231, 231);
+}
