@@ -43,7 +43,7 @@
 /* ------------------- */
 /* Services activities */
 .services-container__activities {
-  background-image: url(/img/servicesforcustomers/services-1.jpg);
+  background-image: url(/HTML-CSS-Uzduotis/img/servicesforcustomers/services-1.jpg);
   background-size: cover;
   background-position: center;
   height: 310px;
@@ -84,7 +84,7 @@
 /* Travel container */
 
 .services-container__travel {
-  background-image: url(/img/servicesforcustomers/services-2.jpg);
+  background-image: url(/HTML-CSS-Uzduotis/img/servicesforcustomers/services-2.jpg);
   background-size: cover;
   background-position: center;
   height: 310px;
@@ -126,7 +126,7 @@
 /* Private section */
 
 .services-container__private {
-  background-image: url(/img/servicesforcustomers/services-3.jpg);
+  background-image: url(/HTML-CSS-Uzduotis/img/servicesforcustomers/services-3.jpg);
   background-size: cover;
   background-position: center;
   height: 310px;
@@ -168,7 +168,7 @@
 /* Location manager section */
 
 .services-container__location {
-  background-image: url(/img/servicesforcustomers/services-4.jpg);
+  background-image: url(/HTML-CSS-Uzduotis/img/servicesforcustomers/services-4.jpg);
   background-size: cover;
   background-position: center;
   height: 310px;
@@ -209,7 +209,7 @@
 /* Main (destination section) */
 
 .places__bg {
-  background-image: url(/img/places/bg/crossword.png);
+  background-image: url(/HTML-CSS-Uzduotis/img/places/bg/crossword.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -244,7 +244,7 @@
 /* Canada */
 
 .places-image__canada {
-  background-image: url(/img/places/place-2.jpg);
+  background-image: url(/HTML-CSS-Uzduotis/img/places/place-2.jpg);
   background-size: cover;
   background-position: center;
   width: 270px;
@@ -290,7 +290,7 @@
 /* Grece */
 
 .places-image__greece {
-  background-image: url(/img/places/place-5.jpg);
+  background-image: url(/HTML-CSS-Uzduotis/img/places/place-5.jpg);
   background-size: cover;
   background-position: center;
   width: 270px;
@@ -336,7 +336,7 @@
 /* Philippines */
 
 .places-image__philippines {
-  background-image: url(/img/places/place-1.jpg);
+  background-image: url(/HTML-CSS-Uzduotis/img/places/place-1.jpg);
   background-size: cover;
   background-position: bottom;
   width: 270px;
@@ -382,7 +382,7 @@
 /* Australia */
 
 .places-image__australia {
-  background-image: url(/img/places/place-4.jpg);
+  background-image: url(/HTML-CSS-Uzduotis/img/places/place-4.jpg);
   background-size: cover;
   background-position: center;
   width: 270px;
@@ -427,7 +427,7 @@
 /* Thailand */
 
 .places-image__thailand {
-  background-image: url(/img/places/place-3.jpg);
+  background-image: url(/HTML-CSS-Uzduotis/img/places/place-3.jpg);
   background-size: cover;
   background-position: center;
   width: 270px;
@@ -474,7 +474,7 @@
 /* Egypt */
 
 .places-image__egypt {
-  background-image: url(/img/places/place-6.jpg);
+  background-image: url(/HTML-CSS-Uzduotis/img/places/place-6.jpg);
   background-size: cover;
   background-position: center;
   width: 270px;
@@ -522,7 +522,7 @@
 /* About us section */
 
 .main-image__about-us {
-  background-image: url(/img/about-us/bg_4.jpg);
+  background-image: url(/HTML-CSS-Uzduotis/img/about-us/bg_4.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   height: 275px;
@@ -538,7 +538,7 @@
 }
 
 .second-image__frame {
-  background-image: url(/img/about-us/about-1.jpg);
+  background-image: url(/HTML-CSS-Uzduotis/img/about-us/about-1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   height: 370px;
@@ -593,7 +593,7 @@
 /* Tourist-feedback section */
 
 .main-tourist-feedback__bg {
-  background-image: url(/img/tourist-feedback/bg_1.jpg);
+  background-image: url(/HTML-CSS-Uzduotis/img/tourist-feedback/bg_1.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   height: 750px;
